@@ -1,0 +1,148 @@
+Sender: LSF System <lsfadmin@c01b17>
+Subject: Job 9525204: <./accCONFIR 257 290 ./> Done
+
+Job <./accCONFIR 257 290 ./> was submitted from host <ln0> by user <wangzhe10> in cluster <cluster1>.
+Job was executed on host(s) <c01b17>, in queue <normal>, as user <wangzhe10> in cluster <cluster1>.
+</tmp/.lsbtmp1670> was used as the home directory.
+</home/wangzhe10/WORK/JinjingLi/work/Analysis/Coincidence/JPLoop> was used as the working directory.
+Started at Fri May 11 16:39:46 2018
+Results reported at Fri May 11 16:43:27 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./accCONFIR 257 290 ./
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :    179.29 sec.
+    Max Memory :       265 MB
+    Max Swap   :       639 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+ FCN=21285.8 FROM MIGRAD    STATUS=CONVERGED     123 CALLS         124 TOTAL
+                     EDM=4.30142e-12    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.6 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  A            1.27445e+05   5.90851e+01  -1.57741e-01  -4.49887e-08
+   2  #mu          1.17132e+02   2.10595e-02  -1.90005e-05   1.50383e-04
+   3  #sigma       2.61849e+01   1.56860e-02   1.27656e-06  -3.10274e-04
+                               ERR DEF= 0.5
+ FCN=5336.86 FROM MIGRAD    STATUS=CONVERGED     140 CALLS         141 TOTAL
+                     EDM=1.63199e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.8 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  A            1.21976e+05   5.54739e+01  -2.05766e-01   6.55789e-06
+   2  #mu          1.18054e+02   2.65934e-02  -1.85491e-04   1.98000e-02
+   3  #sigma       2.92028e+01   1.99133e-02  -4.42789e-06  -1.90948e-02
+                               ERR DEF= 0.5
+Read 92055167 entries.
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@c02b06>
+Subject: Job 9525231: <./accCONFIR 257 290 ./> Exited
+
+Job <./accCONFIR 257 290 ./> was submitted from host <ln0> by user <wangzhe10> in cluster <cluster1>.
+Job was executed on host(s) <c02b06>, in queue <normal>, as user <wangzhe10> in cluster <cluster1>.
+</tmp/.lsbtmp1670> was used as the home directory.
+</home/wangzhe10/WORK/JinjingLi/work/Analysis/Coincidence/JPLoop> was used as the working directory.
+Started at Fri May 11 17:47:12 2018
+Results reported at Fri May 11 17:51:06 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./accCONFIR 257 290 ./
+------------------------------------------------------------
+
+Exited with exit code 139.
+
+Resource usage summary:
+
+    CPU time   :    184.08 sec.
+    Max Memory :       266 MB
+    Max Swap   :       640 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@c02b09>
+Subject: Job 9525366: <./accCONFIR 257 667 ./> Done
+
+Job <./accCONFIR 257 667 ./> was submitted from host <ln0> by user <wangzhe10> in cluster <cluster1>.
+Job was executed on host(s) <c02b09>, in queue <normal>, as user <wangzhe10> in cluster <cluster1>.
+</tmp/.lsbtmp1670> was used as the home directory.
+</home/wangzhe10/WORK/JinjingLi/work/Analysis/Coincidence/JPLoop> was used as the working directory.
+Started at Fri May 11 23:56:28 2018
+Results reported at Sat May 12 00:16:43 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./accCONFIR 257 667 ./
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :   1040.56 sec.
+    Max Memory :       266 MB
+    Max Swap   :       642 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+ FCN=111227 FROM MIGRAD    STATUS=CONVERGED     209 CALLS         210 TOTAL
+                     EDM=1.59402e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.6 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  A1           4.52853e+05   2.39063e+02  -6.25183e-02   1.91286e-07
+   2  #mu_1        1.12621e+02   1.24890e-02   2.89637e-07   3.20083e-03
+   3  #sigma_1     2.17700e+01   7.33088e-03   2.40494e-06  -2.82495e-03
+   4  A2           3.93742e+05   1.19122e+02  -1.22717e-01   3.32629e-07
+   5  #mu_2        1.75897e+02   2.43426e-02  -6.17203e-06  -2.74797e-03
+   6  #sigma_2     3.61658e+01   1.22140e-02   4.92795e-06  -2.80209e-03
+                               ERR DEF= 0.5
+ FCN=81811 FROM MIGRAD    STATUS=CONVERGED     207 CALLS         208 TOTAL
+                     EDM=6.01525e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.4 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  A1           4.53341e+05   2.43368e+02   7.35822e-01  -7.81691e-07
+   2  #mu_1        1.12901e+02   1.34597e-02   1.79047e-07  -1.66857e-02
+   3  #sigma_1     2.25580e+01   7.57241e-03   1.20890e-06   9.96755e-03
+   4  A2           3.87100e+05   1.21706e+02  -2.29557e-01  -3.12151e-06
+   5  #mu_2        1.76878e+02   2.60697e-02   1.62986e-05  -2.16082e-02
+   6  #sigma_2     3.58406e+01   1.30287e-02  -4.01683e-05  -6.01043e-02
+                               ERR DEF= 0.5
+Read 540646928 entries.
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+

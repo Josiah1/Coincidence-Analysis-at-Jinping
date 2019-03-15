@@ -1,0 +1,15 @@
+reate a TTree TSelector from raw data file. The default ones are already in this directory.
+    $ root -l $JPDataDir/run00000331/Jinping_1ton_Phy_20171003_00000331.root    (or any other raw data file)
+    root [1] Readout->MakeSelector("ReadoutTreeReader");
+    root [2] .q
+    Then you can get ReadoutTreeReader.h and ReadoutTreeReader.C
+
+2. Use rootcling to create dictionary files. The default ones are already in this directory.
+    $ rootcling -f ReadoutTreeReaderDict.C -c ReadoutTreeReader.h
+    Then you can get ReadoutTreeReaderDict.C and ReadoutTreeReaderDict_rdict.pcm
+
+3. Add these files to Makefile, or use the default Makefile
+
+4. Run PreAnalysis:
+    $ ./JPLooper runId
+

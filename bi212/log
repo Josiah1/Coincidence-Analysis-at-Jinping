@@ -1,0 +1,104 @@
+Sender: LSF System <lsfadmin@c04b18>
+Subject: Job 9581184: <./JPLooper 375 667> Exited
+
+Job <./JPLooper 375 667> was submitted from host <ln0> by user <wangzhe10> in cluster <cluster1>.
+Job was executed on host(s) <c04b18>, in queue <normal>, as user <wangzhe10> in cluster <cluster1>.
+</tmp/.lsbtmp1670> was used as the home directory.
+</home/wangzhe10/WORK/JinjingLi/work/Analysis/Coincidence/eventrate_pedestal> was used as the working directory.
+Started at Wed May 23 21:31:42 2018
+Results reported at Wed May 23 23:04:59 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./JPLooper 375 667
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :   2305.41 sec.
+    Max Memory :       158 MB
+    Max Swap   :       411 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@c01b16>
+Subject: Job 9581298: <./JPLooper 375 667> Exited
+
+Job <./JPLooper 375 667> was submitted from host <ln0> by user <wangzhe10> in cluster <cluster1>.
+Job was executed on host(s) <c01b16>, in queue <normal>, as user <wangzhe10> in cluster <cluster1>.
+</tmp/.lsbtmp1670> was used as the home directory.
+</home/wangzhe10/WORK/JinjingLi/work/Analysis/Coincidence/eventrate_pedestal> was used as the working directory.
+Started at Wed May 23 23:24:05 2018
+Results reported at Thu May 24 00:31:22 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./JPLooper 375 667
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :   2283.68 sec.
+    Max Memory :       158 MB
+    Max Swap   :       411 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+

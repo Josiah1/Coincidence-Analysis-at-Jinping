@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@c03b16>
+Subject: Job 9561295: <./JPLooper 257 667> Done
+
+Job <./JPLooper 257 667> was submitted from host <ln0> by user <wangzhe10> in cluster <cluster1>.
+Job was executed on host(s) <c03b16>, in queue <normal>, as user <wangzhe10> in cluster <cluster1>.
+</tmp/.lsbtmp1670> was used as the home directory.
+</home/wangzhe10/WORK/JinjingLi/work/Analysis/Coincidence/JPLoop> was used as the working directory.
+Started at Thu May 17 13:53:07 2018
+Results reported at Thu May 17 14:20:51 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./JPLooper 257 667
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :   1325.35 sec.
+    Max Memory :       506 MB
+    Max Swap   :       852 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+Read 490801456 entries.
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+

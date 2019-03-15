@@ -1,0 +1,170 @@
+Sender: LSF System <lsfadmin@c05b13>
+Subject: Job 9652824: <./JPLooper 320 667> Exited
+
+Job <./JPLooper 320 667> was submitted from host <ln0> by user <wangzhe10> in cluster <cluster1>.
+Job was executed on host(s) <c05b13>, in queue <normal>, as user <wangzhe10> in cluster <cluster1>.
+</tmp/.lsbtmp1670> was used as the home directory.
+</work/wangzhe10_work/JinjingLi/work/Analysis/Coincidence/bi214contamination> was used as the working directory.
+Started at Thu May 31 21:53:51 2018
+Results reported at Thu May 31 21:58:31 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./JPLooper 320 667
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :    214.80 sec.
+    Max Memory :       181 MB
+    Max Swap   :       461 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 nsig         0.00000e+00  1.00000e-03    1.00000e-07  1.00000e+08
+ MINUIT WARNING IN PARAM DEF
+ ============== LIMITS ON PARAM1 TOO FAR APART.
+ MINUIT WARNING IN PARAM DEF
+ ============== STARTING VALUE OUTSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     2 nbkg         0.00000e+00  1.00000e-03    1.00000e-07  1.00000e+08
+ MINUIT WARNING IN PARAM DEF
+ ============== LIMITS ON PARAM2 TOO FAR APART.
+ MINUIT WARNING IN PARAM DEF
+ ============== STARTING VALUE OUTSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE2 BROUGHT BACK INSIDE LIMITS.
+ **********
+ **    1 **SET ERRDEF           1
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 nsig         8.50435e+04  1.00000e-03    1.00000e-07  1.00000e+08
+ MINUIT WARNING IN PARAM DEF
+ ============== LIMITS ON PARAM1 TOO FAR APART.
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     2 nbkg         8.50435e+04  1.00000e-03    1.00000e-07  1.00000e+08
+ MINUIT WARNING IN PARAM DEF
+ ============== LIMITS ON PARAM2 TOO FAR APART.
+ **********
+ **    2 **MIGRAD
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+par[0] 85043.5	par[1] 85043.5	-2lnL -5.52625e+06
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-04
+par[0] 85045.6	par[1] 85043.5	-2lnL -5.52625e+06
+par[0] 85041.4	par[1] 85043.5	-2lnL -5.52626e+06
+par[0] 85064.5	par[1] 85043.5	-2lnL -5.52623e+06
+par[0] 85022.5	par[1] 85043.5	-2lnL -5.52628e+06
+par[0] 85043.5	par[1] 85045.6	-2lnL -5.52626e+06
+par[0] 85043.5	par[1] 85041.4	-2lnL -5.52625e+06
+par[0] 85043.5	par[1] 85064.5	-2lnL -5.52628e+06
+par[0] 85043.5	par[1] 85022.5	-2lnL -5.52623e+06
+ FCN=-5.52625e+06 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  nsig         8.50435e+04   1.00000e-03   3.43055e-10   3.65542e+06
+   2  nbkg         8.50435e+04   1.00000e-03   3.43055e-10  -3.65542e+06
+par[0] 17400.9	par[1] 135272	-2lnL -5.62798e+06
+par[0] 9408.2	par[1] 147795	-2lnL -5.6338e+06
+par[0] 6388.05	par[1] 154119	-2lnL -5.63514e+06
+par[0] 4270.87	par[1] 159622	-2lnL -5.63568e+06
+par[0] 4318.13	par[1] 159622	-2lnL -5.63568e+06
+par[0] 4223.87	par[1] 159622	-2lnL -5.63567e+06
+par[0] 4459.65	par[1] 159622	-2lnL -5.63569e+06
+par[0] 4086.17	par[1] 159622	-2lnL -5.63566e+06
+par[0] 4270.87	par[1] 159910	-2lnL -5.6357e+06
+par[0] 4270.87	par[1] 159334	-2lnL -5.63565e+06
+par[0] 4270.87	par[1] 160087	-2lnL -5.63571e+06
+par[0] 4270.87	par[1] 159159	-2lnL -5.63564e+06
+par[0] 4306.01	par[1] 165427	-2lnL -5.63591e+06
+par[0] 4308.02	par[1] 165761	-2lnL -5.63591e+06
+par[0] 4497.62	par[1] 165761	-2lnL -5.63591e+06
+par[0] 4122.5	par[1] 165761	-2lnL -5.63591e+06
+par[0] 4308.02	par[1] 166234	-2lnL -5.63591e+06
+par[0] 4308.02	par[1] 165289	-2lnL -5.63591e+06
+par[0] 4298.01	par[1] 165791	-2lnL -5.63591e+06
+par[0] 4290	par[1] 165815	-2lnL -5.63591e+06
+par[0] 4287.52	par[1] 165822	-2lnL -5.63591e+06
+par[0] 4472.69	par[1] 165822	-2lnL -5.63591e+06
+par[0] 4106.26	par[1] 165822	-2lnL -5.63591e+06
+par[0] 4287.52	par[1] 166300	-2lnL -5.63591e+06
+par[0] 4287.52	par[1] 165346	-2lnL -5.63591e+06
+par[0] 4280.59	par[1] 165813	-2lnL -5.63591e+06
+par[0] 4279.79	par[1] 165812	-2lnL -5.63591e+06
+par[0] 4278.73	par[1] 165811	-2lnL -5.63591e+06
+par[0] 4464.16	par[1] 165811	-2lnL -5.63591e+06
+par[0] 4097.23	par[1] 165811	-2lnL -5.63591e+06
+par[0] 4278.73	par[1] 166288	-2lnL -5.63591e+06
+par[0] 4278.73	par[1] 165334	-2lnL -5.63591e+06
+par[0] 4278.14	par[1] 165809	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4464.09	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4096.76	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 166287	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 165333	-2lnL -5.63591e+06
+par[0] 4278.13	par[1] 165809	-2lnL -5.63591e+06
+par[0] 4278.35	par[1] 165810	-2lnL -5.63591e+06
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+par[0] 4278.45	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4464.09	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4096.76	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 166287	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 165333	-2lnL -5.63591e+06
+par[0] 4315.27	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4241.8	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4285.8	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4271.11	par[1] 165810	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 165905	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 165714	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 165829	-2lnL -5.63591e+06
+par[0] 4278.45	par[1] 165791	-2lnL -5.63591e+06
+par[0] 4464.09	par[1] 166287	-2lnL -5.63591e+06
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-5.63591e+06 FROM HESSE     STATUS=OK             14 CALLS          63 TOTAL
+                     EDM=7.14437e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  nsig         4.27845e+03   1.67665e+02   2.80795e-04  -4.88509e+01
+   2  nbkg         1.65810e+05   4.35571e+02   1.17277e-04   7.45168e+01
+par[0] 4279.72	par[1] 165807	-2lnL -5.63591e+06
+par[0] 4353.51	par[1] 165807	-2lnL -5.63591e+06
+par[0] 4206.56	par[1] 165807	-2lnL -5.63591e+06
+par[0] 4279.72	par[1] 165998	-2lnL -5.63591e+06
+par[0] 4279.72	par[1] 165616	-2lnL -5.63591e+06
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ FCN=-5.63591e+06 FROM MIGRAD    STATUS=CONVERGED      67 CALLS          68 TOTAL
+                     EDM=2.28711e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   4.2 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  nsig         4.27972e+03   1.53624e+02   1.93926e-06   1.16714e+01
+   2  nbkg         1.65807e+05   4.34039e+02  -6.46200e-07  -8.99660e-01
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=1
+  2.360e+04 -1.909e+04 
+ -1.909e+04  1.884e+05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.28630   1.000 -0.286
+        2  0.28630  -0.286  1.000
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
